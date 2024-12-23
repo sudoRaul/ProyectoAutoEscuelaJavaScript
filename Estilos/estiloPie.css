@@ -1,0 +1,15 @@
+#Footcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #1a7ca3, #4e9db7);
+    width: 100%;
+    margin-top: 10%;
+}
+
+#Footcontainer a {
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(10, 0, 74);
+    font-weight: bolder;
+}

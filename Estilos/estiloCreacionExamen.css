@@ -1,0 +1,56 @@
+body {
+    background-color: #c8e5e9;
+    margin: 0;
+}
+main {
+    width: 80%; 
+    margin-left: 9%;
+    margin-top: 8%;
+    padding: 20px;
+    background-color: #d5f9ff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main input, main select, main button {
+    width: 92%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    box-sizing: border-box; 
+}
+/*Fuente personalizada*/
+label {
+    font-family: 'Lora', sans-serif;
+}
+
+input::placeholder {
+    font-weight: 700;
+    color: rgb(111, 190, 177);
+}
+
+input:hover, select:hover {
+    background-color: rgb(188, 226, 226);
+}
+
+main button {
+    background-color: #5bb9c0;
+    color: white; 
+    border: none; 
+    cursor: pointer;
+    font-size: 18px;
+}
+
+main button:hover {
+    background-color: rgb(43, 209, 159);
+}
+
+main p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}

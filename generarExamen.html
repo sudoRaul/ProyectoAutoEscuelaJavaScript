@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examen</title>
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="stylesheet" href="Estilos/estiloCabecera.css" />
+    <link rel="stylesheet" href="Estilos/estiloGeneral.css" />
+    <link rel="stylesheet" href="Estilos/estiloPie.css" />
+    <link rel="stylesheet" href="Estilos/estiloExamen.css">
+    <script src="Scripts/opcionesExamen.js"></script>
+    <style>
+      main{
+        display: flex;
+        align-items: center
+      } #creacionExamen{
+        background-color: rgb(154, 218, 218);
+        border-radius: 8px;
+        padding: 30px 30px 30px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="cabecera">
+      <img src="logo.png" alt="Logotipo" />
+      <strong>AutoExperience</strong>
+      <a href="index.html">Log out</a>
+    </header>
+    <h3>Examen Teórico Por Temas</h3>
+    <main>
+      <div id="container">
+        <h3>Listado de preguntas</h3>
+      </div>
+      <div id="creacionExamen">
+        <h4>Opciones de generar Examen</h4>
+        <form>
+          <input type="date" id="fecha" />
+          <br />
+          <input type="text" id="nombreExamen" placeholder="Nombre del examen" /><br />
+          <button>Generar examen</button>
+        </form>
+      </div>
+    </main>
+
+    <footer id="Footcontainer">
+      <h3>AutoExperience</h3>
+
+      <div id="contacto">
+        <p><strong>Dirección:</strong> Avenida España, 23009 Jaén</p>
+        <p><strong>Teléfono:</strong> +34 912 345 678</p>
+        <p><strong>Email:</strong> contacto@autoexperience.com</p>
+      </div>
+      <br />
+      <div id="redesSociales">
+        <a href="https://facebook.com">Facebook</a>
+        <a href="https://instagram.com">Instagram</a>
+        <a href="https://twitter.com">Twitter</a>
+      </div>
+      <br />
+      <div id="copyrigth">
+        <p>&copy; 2024 AutoExperience. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

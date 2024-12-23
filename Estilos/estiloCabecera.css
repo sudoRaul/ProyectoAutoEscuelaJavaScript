@@ -1,0 +1,40 @@
+#cabecera {
+    display: flex;
+    justify-content: space-between;
+    background-color: #84d9e2;
+    align-items: center;
+    height: 10%;
+    padding: 0 2.5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#cabecera img {
+    width: 5%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#cabecera img:hover {
+    transform: scale(0.9);
+    filter: brightness(0.9) blur(1px);
+}
+
+#cabecera strong {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#cabecera a {
+    margin-right: 5%;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(238, 168, 103);
+    background-color: transparent;
+    padding: 1.25% 2%;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}#cabecera a:hover {
+    transform: scale(0.9);
+}

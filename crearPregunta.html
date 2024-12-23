@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creación de preguntas</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="Estilos/estiloCabecera.css">
+    <link rel="stylesheet" href="Estilos/estiloPie.css">
+    <link rel="stylesheet" href="Estilos/estiloCreacionExamen.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+    <script  src="Scripts/generarPreguntas.js"></script>
+</head>
+<body>
+    <header id="cabecera">
+        <img src="logo.png" alt="Logotipo">
+        <strong>AutoExperience</strong>
+        <a href="index.html">Log in</a>
+    </header>
+    <main>
+        <h2>Creación de preguntas</h2>
+        <form>
+            <label>Escriba el enunciado de la pregunta, el tema correspondiente, su dificultad y a continuación las posibles respuestas y finalmente la correcta siendo estas (a, b o c)</label><br>
+            <input type="text" placeholder="Enunciado" id="enunciado"><br>
+            
+            <select name="dificultad" id="dificultad">
+                <option value="alta">Alta</option>
+                <option value="media">Media</option>
+                <option value="baja">Baja</option>
+            </select><br>
+            <input type="text" placeholder="Opción 1" id="a"><br>
+            <input type="text" placeholder="Opción 2" id="b"><br>
+            <input type="text" placeholder="Opción 3" id="c"><br>
+            <input type="text" placeholder="Respuesta" id="respuesta"><br>
+            <button>Registrar pregunta</button>
+        </form>
+    </main>
+    
+    <footer id="Footcontainer">
+        <h3>AutoExperience</h3>
+
+        <div id="contacto">
+            <p><strong>Dirección:</strong> Avenida España, 23009 Jaén</p>
+            <p><strong>Teléfono:</strong> +34 912 345 678</p>
+            <p><strong>Email:</strong> contacto@autoexperience.com</p>
+        </div>
+        <br />
+        <div id="redesSociales">
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://instagram.com">Instagram</a>
+            <a href="https://twitter.com">Twitter</a>
+        </div>
+        <br />
+        <div id="copyrigth">
+            <p>&copy; 2024 AutoExperience. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

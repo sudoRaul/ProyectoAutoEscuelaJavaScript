@@ -1,0 +1,44 @@
+body{
+    background-color: #c8e5e9;
+    margin: 0;
+}
+form{
+    margin-top: 6%;
+    margin-left: 1.2%;
+}
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+}
+input:hover{
+    background-color: rgb(188, 226, 226);
+}
+button{
+    margin-top: 2%;
+    margin-left: 0.5%;
+    background-color: #5bb9c0;
+    color: white; 
+    border: none; 
+    cursor: pointer;
+    font-size: 18px;
+    width: 6%;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(43, 209, 159);
+}
+table{
+    width: 35%;
+    border-collapse: collapse;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+td{
+    padding: 10px;
+    border: 1px solid #000000;
+    font-size: "20px";
+    text-align: center;
+}
