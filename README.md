@@ -1,6 +1,6 @@
 # 📘 Proyecto Web Autoescuela
 
-Aplicación web desarrollada como proyecto final del primer trimestre del ciclo de Desarrollo de Aplicaciones Web en los módulos de desarrollo Web en entorno cliente y diseño de interfaces web. Permite a una autoescuela gestionar exámenes tipo test, usuarios y resultados, con funcionalidades personalizadas según el rol del usuario: Administrador, Profesor o Alumno.
+Aplicación web desarrollada como proyecto final del primer trimestre del ciclo de Desarrollo de Aplicaciones Web en los módulos de desarrollo Web en entorno cliente y diseño de interfaces web, por lo que no tiene interacción con una API. Los datos se persisten en el localStorage, lo que permite aprender a manejar a la perfección esta herramienta de JavaScript. EL proyecto simula la gestión de una autoescuela con profesores que crean exámenes tipo test, usuarios que realizan esos exámenes y ven sus resultados, con funcionalidades personalizadas según el rol del usuario: Administrador, Profesor o Alumno.
 
 ## 🛠️ Tecnologías utilizadas
 
